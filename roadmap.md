@@ -1,0 +1,3 @@
+- [ ] Build the learner feedback workspace with signed-in access and email/Google sign-in.
+- [ ] Add an authenticated Cloud function for AI feedback without storing submissions.
+- [ ] Validate build, feedback input handling, and available signed-in flow.

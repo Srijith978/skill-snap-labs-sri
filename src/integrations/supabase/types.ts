@@ -14,7 +14,27 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      ai_gateway_workspace_pause: {
+        Row: {
+          created_at: string
+          message: string
+          scope: string
+          status_code: number
+        }
+        Insert: {
+          created_at?: string
+          message: string
+          scope: string
+          status_code: number
+        }
+        Update: {
+          created_at?: string
+          message?: string
+          scope?: string
+          status_code?: number
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
